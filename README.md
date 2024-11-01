@@ -106,3 +106,58 @@ Consider the following shifts for three doctors:
 ## Conclusion
 
 By using this method, hospitals can ensure they have adequate coverage while optimizing staff allocation and minimizing unnecessary costs.
+
+# Data Stream Processing
+
+## Problem Statement
+
+When processing incoming data packets or requests that each have start and end times, servers must handle these requests without overlap to avoid congestion. The goal is to determine how many servers are required to manage overlapping packets without causing delays.
+
+## Solution Overview
+
+Each data packet’s time range is treated as an interval. By using a grouping technique, we can identify the maximum number of overlapping packets at any given time. This helps determine how many servers are needed to handle the requests efficiently.
+
+## Impact
+
+Implementing this solution ensures:
+- **Minimized Latency**: Reduces delays in processing requests.
+- **Prevention of Server Overload**: Ensures servers are not overwhelmed by too many simultaneous requests.
+- **Optimized Server Resources**: Efficient use of server capacity, especially in high-traffic environments such as financial trading platforms or video streaming services.
+
+## Example
+
+Consider a scenario with the following data packets:
+
+- **Packet 1**: 10:00 AM to 10:30 AM
+- **Packet 2**: 10:15 AM to 10:45 AM
+- **Packet 3**: 10:40 AM to 11:00 AM
+- **Packet 4**: 10:50 AM to 11:20 AM
+
+### Steps to Determine Servers Needed
+
+1. **Identify Time Intervals**:
+   - Packet 1: 10:00 AM - 10:30 AM
+   - Packet 2: 10:15 AM - 10:45 AM
+   - Packet 3: 10:40 AM - 11:00 AM
+   - Packet 4: 10:50 AM - 11:20 AM
+
+2. **Count Overlaps**:
+   - From **10:00 AM to 10:15 AM**: Only Packet 1 is active (1 server).
+   - From **10:15 AM to 10:30 AM**: Packets 1 and 2 are active (2 servers).
+   - From **10:30 AM to 10:40 AM**: Only Packet 2 is active (1 server).
+   - From **10:40 AM to 10:50 AM**: Packets 2 and 3 are active (2 servers).
+   - From **10:50 AM to 11:00 AM**: Packets 3 and 4 are active (2 servers).
+   - From **11:00 AM to 11:20 AM**: Only Packet 4 is active (1 server).
+
+3. **Maximum Overlap**:
+   The peak number of servers needed at the same time is **2**, occurring between **10:15 AM and 10:30 AM**, and also between **10:40 AM and 11:00 AM**.
+
+## Conclusion
+
+By applying this method, organizations can effectively manage their server resources, ensuring timely processing of data streams while preventing overloads and optimizing performance.
+
+
+ Data Stream Processing
+Problem: When processing incoming data packets or requests that each have start and end times, servers must handle requests without overlap to avoid congestion.
+Solution: Treat each data packet’s time range as an interval and use the grouping technique to determine how many servers are required to handle overlapping packets without delay.
+Impact: This minimizes latency, prevents server overload, and optimizes server resources, especially in high-traffic systems like financial trading platforms or video streaming services.
