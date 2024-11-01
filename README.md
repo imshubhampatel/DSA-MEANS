@@ -163,4 +163,4 @@ Solution: Treat each data packet’s time range as an interval and use the group
 Impact: This minimizes latency, prevents server overload, and optimizes server resources, especially in high-traffic systems like financial trading platforms or video streaming services.
 
 
-(Leetcode Problme)[https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description]
+[Leetcode](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description)
