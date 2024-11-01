@@ -1,2 +1,2 @@
 # DSA-MEANS
-[Meeting Scheduler](https://github.com/imshubhampatel/DSA-MEANS/edit/main/meeting_scheduler.md)
+1. [Meeting Scheduler](https://github.com/imshubhampatel/DSA-MEANS/blob/main/Scheduling/meeting_scheduler.md)
