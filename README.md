@@ -1,5 +1,5 @@
 # DSA-MEANS
-[leetcode Problem for Allocating right resource accroding to availibility]https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description
+[leetcode Problem for Allocating right resource accroding to availibility](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description)
 # Meeting Room Scheduler
 
 ## Problem Statement
