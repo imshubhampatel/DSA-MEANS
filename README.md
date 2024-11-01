@@ -161,3 +161,6 @@ By applying this method, organizations can effectively manage their server resou
 Problem: When processing incoming data packets or requests that each have start and end times, servers must handle requests without overlap to avoid congestion.
 Solution: Treat each data packet’s time range as an interval and use the grouping technique to determine how many servers are required to handle overlapping packets without delay.
 Impact: This minimizes latency, prevents server overload, and optimizes server resources, especially in high-traffic systems like financial trading platforms or video streaming services.
+
+
+(Leetcode Problme)[https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description]
