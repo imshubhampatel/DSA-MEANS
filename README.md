@@ -60,3 +60,49 @@ The maximum number of rooms needed for this example is **2**.
 ## Conclusion
 
 By following this method, you can efficiently determine how many meeting rooms are necessary for any given schedule. This ensures smooth operations and optimal use of resources.
+
+
+# Hospital Staffing Optimization
+
+## Problem Statement
+
+In a hospital, doctors work in shifts that sometimes overlap. The goal is to determine how many doctors are needed at the same time to ensure there are enough on duty without overscheduling.
+
+## Solution Overview
+
+Each doctor’s shift is treated as a time interval defined by a start time and an end time. By analyzing these intervals, we can find the maximum number of doctors that need to be on duty simultaneously.
+
+## Impact
+
+This approach helps ensure:
+- **Adequate Staffing**: There are enough doctors available for patients.
+- **Minimized Overscheduling**: Avoid having too many doctors scheduled at once.
+- **Optimized Personnel Allocation**: Reduces idle time and costs while preventing gaps in coverage.
+
+## Example
+
+Consider the following shifts for three doctors:
+
+- **Doctor A**: 8 AM to 12 PM
+- **Doctor B**: 10 AM to 2 PM
+- **Doctor C**: 1 PM to 5 PM
+
+### Steps to Determine Minimum Doctors Needed
+
+1. **Identify Time Intervals**:
+   - Doctor A: 8 AM - 12 PM
+   - Doctor B: 10 AM - 2 PM
+   - Doctor C: 1 PM - 5 PM
+
+2. **Count Overlaps**:
+   - From **8 AM to 10 AM**: Only Doctor A is on duty (1 doctor).
+   - From **10 AM to 12 PM**: Doctors A and B are both on duty (2 doctors).
+   - From **12 PM to 1 PM**: Only Doctor B is on duty (1 doctor).
+   - From **1 PM to 2 PM**: Doctors B and C are on duty (2 doctors).
+   - From **2 PM to 5 PM**: Only Doctor C is on duty (1 doctor).
+
+3. **Maximum Overlap**: The peak number of doctors needed at the same time is **2**, occurring between 10 AM and 12 PM.
+
+## Conclusion
+
+By using this method, hospitals can ensure they have adequate coverage while optimizing staff allocation and minimizing unnecessary costs.
