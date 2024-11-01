@@ -246,3 +246,24 @@ By following this method and using a min-heap for tracking end times, we can eff
 
 
 
+# Similar Questions
+
+This document lists similar questions related to the main question, providing their titles, difficulty levels, and links to their respective LeetCode pages.
+
+## Questions List
+
+| Title | Difficulty | Link |
+|-------|------------|------|
+| [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [View Problem](https://leetcode.com/problems/merge-intervals/) |
+| [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy | [View Problem](https://leetcode.com/problems/meeting-rooms/) (Paid Only) |
+| [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | [View Problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |
+| [Car Pooling](https://leetcode.com/problems/car-pooling/) | Medium | [View Problem](https://leetcode.com/problems/car-pooling/) |
+| [Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/) | Hard | [View Problem](https://leetcode.com/problems/number-of-flowers-in-full-bloom/) |
+| [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) | Hard | [View Problem](https://leetcode.com/problems/meeting-rooms-iii/) |
+| [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/) | Medium | [View Problem](https://leetcode.com/problems/total-cost-to-hire-k-workers/) |
+| [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/) | Easy | [View Problem](https://leetcode.com/problems/points-that-intersect-with-cars/) |
+
+## Note
+Some problems may require a premium subscription to access.
+
+
